@@ -1,0 +1,20 @@
+# Allow-list: only what the Dockerfiles copy reaches the build context.
+*
+!backend/
+!fixtures/
+!frontend/
+
+backend/.venv
+backend/.coverage
+backend/.mypy_cache
+backend/.pytest_cache
+backend/.ruff_cache
+**/__pycache__
+
+frontend/node_modules
+frontend/.next
+frontend/.env*
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+
+**/.DS_Store

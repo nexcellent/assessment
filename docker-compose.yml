@@ -1,0 +1,50 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: runtime
+    ports:
+      - "8000:8000"
+    # Optional settings; see .env.example. The file may be absent.
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      # The fixtures are read at start-up: edit one, then `docker compose restart backend`.
+      - ./fixtures:/app/fixtures:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      target: runtime
+    ports:
+      - "3000:3000"
+    environment:
+      BACKEND_URL: http://backend:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  # The checks for a machine without uv or Node:
+  #   docker compose run --build --rm backend-checks
+  #   docker compose run --build --rm frontend-checks
+  backend-checks:
+    profiles: [checks]
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      target: checks
+
+  frontend-checks:
+    profiles: [checks]
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      target: checks

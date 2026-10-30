@@ -1,0 +1,229 @@
+{
+  "id": "lena-hoffmann",
+  "personal_info": {
+    "first_name": "Lena",
+    "last_name": "Hoffmann",
+    "title": "Senior Consultant",
+    "summary": "Senior consultant for data platforms and analytics in regulated industries. Ten years of delivery experience from requirements to operations, most recently as architecture and delivery lead of cross-functional teams of four to eight people on Azure-based platforms for banks and insurers."
+  },
+  "work_experience": [
+    {
+      "id": "we-1",
+      "company": "Fenwick Advisory GmbH",
+      "position": "Consultant",
+      "start_date": "2013-11-01",
+      "end_date": "2017-06-30",
+      "description": [
+        "Requirements analysis and data modelling for reporting solutions in banking",
+        "Built ETL pipelines and SQL-based reporting for two regional banks",
+        "Took over the lead of a three-person analytics team in 2016"
+      ]
+    },
+    {
+      "id": "we-2",
+      "company": "Nordlicht Consulting AG",
+      "position": "Senior Consultant",
+      "start_date": "2017-07-01",
+      "end_date": "2021-12-31",
+      "description": [
+        "Designed and delivered cloud data platforms on Azure for insurance clients",
+        "Led agile delivery teams of up to eight people as technical lead",
+        "Established data governance and data quality processes with the business departments"
+      ]
+    },
+    {
+      "id": "we-3",
+      "company": "Helix Digital GmbH",
+      "position": "Senior Consultant",
+      "start_date": "2022-01-01",
+      "end_date": null,
+      "description": [
+        "Architecture and delivery lead for analytics platforms in banking and insurance",
+        "Pre-sales support: solution design, effort estimation and proposals"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Technische Universität Dresden",
+      "degree": "Bachelor of Science",
+      "field_of_study": "Business Informatics",
+      "start_date": "2008-10-01",
+      "end_date": "2011-09-30",
+      "description": [
+        "Focus on business process modelling and database systems",
+        "Bachelor thesis on data quality in management reporting"
+      ]
+    },
+    {
+      "id": "edu-2",
+      "institution": "Technische Universität München",
+      "degree": "Master of Science",
+      "field_of_study": "Information Systems",
+      "start_date": "2011-10-01",
+      "end_date": "2013-09-30",
+      "description": [
+        "Specialisation in data management and analytics",
+        "Master thesis on the automation of regulatory reporting pipelines"
+      ]
+    }
+  ],
+  "skill_categories": [
+    {
+      "id": "cat-1",
+      "category_name": "Programming Languages",
+      "skills": [
+        { "name": "Python", "level": "expert" },
+        { "name": "SQL", "level": "expert" },
+        { "name": "TypeScript", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "category_name": "Cloud & DevOps",
+      "skills": [
+        { "name": "Azure", "level": "expert" },
+        { "name": "Terraform", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" },
+        { "name": "Azure DevOps", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "category_name": "Databases & Data",
+      "skills": [
+        { "name": "PostgreSQL", "level": "advanced" },
+        { "name": "Azure Databricks", "level": "advanced" },
+        { "name": "Power BI", "level": "advanced" },
+        { "name": "dbt", "level": "intermediate" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Regulatory Reporting Data Mart",
+      "company": "Hansebank AG",
+      "role": "Data Analyst",
+      "start_date": "2014-03-01",
+      "end_date": "2015-12-31",
+      "description": [
+        "Modelled the data mart for regulatory reports together with the finance and risk departments",
+        "Implemented ETL loads in SQL and Python and automated the reconciliation against the source systems",
+        "Documented data lineage for the internal audit"
+      ],
+      "technologies": [
+        { "name": "SQL", "level": "advanced" },
+        { "name": "Python", "level": "intermediate" },
+        { "name": "PostgreSQL", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Reporting Platform Modernisation",
+      "company": "Primus Bank",
+      "role": "Consultant and Team Lead",
+      "start_date": "2016-02-01",
+      "end_date": "2017-06-30",
+      "description": [
+        "Replaced a spreadsheet-based reporting landscape with a governed reporting platform",
+        "Led a team of three developers; introduced code reviews and automated tests for the loads",
+        "Rolled out self-service dashboards to 120 users in controlling and sales"
+      ],
+      "technologies": [
+        { "name": "SQL", "level": "expert" },
+        { "name": "Python", "level": "advanced" },
+        { "name": "Power BI", "level": "intermediate" },
+        { "name": "Docker", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Cloud Data Platform for Claims Analytics",
+      "company": "Allfinanz Versicherung AG",
+      "role": "Technical Lead",
+      "start_date": "2017-09-01",
+      "end_date": "2019-12-31",
+      "description": [
+        "Designed the Azure-based data platform for claims analytics and led its delivery",
+        "Set up infrastructure as code and CI/CD pipelines for the platform team",
+        "Built the claims data model and the first fraud indicators with the actuarial department"
+      ],
+      "technologies": [
+        { "name": "Azure", "level": "advanced" },
+        { "name": "Azure Databricks", "level": "intermediate" },
+        { "name": "Python", "level": "advanced" },
+        { "name": "Terraform", "level": "intermediate" },
+        { "name": "Azure DevOps", "level": "intermediate" },
+        { "name": "PostgreSQL", "level": "advanced" },
+        { "name": "Power BI", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Data Governance and Quality Programme",
+      "company": "Norddeutsche Leben",
+      "role": "Lead Consultant",
+      "start_date": "2020-02-01",
+      "end_date": "2021-11-30",
+      "description": [
+        "Introduced data ownership, a business glossary and automated quality checks across four domains",
+        "Modelled the curated layer with dbt and migrated the loads to Azure Databricks",
+        "Reduced the monthly reporting cycle from twelve to four working days"
+      ],
+      "technologies": [
+        { "name": "Azure", "level": "expert" },
+        { "name": "Azure Databricks", "level": "advanced" },
+        { "name": "dbt", "level": "intermediate" },
+        { "name": "SQL", "level": "expert" },
+        { "name": "Azure DevOps", "level": "advanced" },
+        { "name": "Terraform", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-5",
+      "title": "Customer Analytics Platform",
+      "company": "Hansebank AG",
+      "role": "Solution Architect",
+      "start_date": "2022-03-01",
+      "end_date": "2024-06-30",
+      "description": [
+        "Designed the lakehouse architecture for customer analytics and the integration of eight source systems",
+        "Delivered the platform with a team of six in quarterly increments",
+        "Built the internal web application for data product owners together with the frontend team"
+      ],
+      "technologies": [
+        { "name": "Azure", "level": "expert" },
+        { "name": "Azure Databricks", "level": "advanced" },
+        { "name": "Python", "level": "expert" },
+        { "name": "Terraform", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" },
+        { "name": "TypeScript", "level": "intermediate" },
+        { "name": "Azure DevOps", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-6",
+      "title": "Analytics Self-Service Portal",
+      "company": "Primus Bank",
+      "role": "Architecture Lead",
+      "start_date": "2024-09-01",
+      "end_date": "2026-06-30",
+      "description": [
+        "Architecture and technical lead for a self-service portal that lets business units publish and consume data products",
+        "Defined the API and the data contracts between the portal and the platform",
+        "Coached two junior consultants during the delivery"
+      ],
+      "technologies": [
+        { "name": "Azure", "level": "expert" },
+        { "name": "TypeScript", "level": "intermediate" },
+        { "name": "Python", "level": "expert" },
+        { "name": "PostgreSQL", "level": "advanced" },
+        { "name": "Power BI", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" },
+        { "name": "dbt", "level": "intermediate" }
+      ]
+    }
+  ]
+}

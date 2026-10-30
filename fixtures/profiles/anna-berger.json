@@ -1,0 +1,207 @@
+{
+  "id": "anna-berger",
+  "personal_info": {
+    "first_name": "Anna",
+    "last_name": "Berger",
+    "title": "Cloud Architect",
+    "summary": "Cloud architect with a focus on Azure landing zones, container platforms and platform engineering. Designs and runs Kubernetes-based platforms for mid-sized enterprises and guides their teams through the migration."
+  },
+  "work_experience": [
+    {
+      "id": "we-1",
+      "company": "Systemhaus Breuer GmbH",
+      "position": "Systems Engineer",
+      "start_date": "2013-04-01",
+      "end_date": "2016-09-30",
+      "description": [
+        "Operated Linux and VMware infrastructure for mid-sized customers",
+        "Introduced configuration management and automated the server provisioning"
+      ]
+    },
+    {
+      "id": "we-2",
+      "company": "CloudWerk Consulting GmbH",
+      "position": "Cloud Consultant",
+      "start_date": "2016-10-01",
+      "end_date": "2020-12-31",
+      "description": [
+        "Azure migrations and landing zones for manufacturing and retail clients",
+        "Built container platforms and CI/CD pipelines for development teams"
+      ]
+    },
+    {
+      "id": "we-3",
+      "company": "Helix Digital GmbH",
+      "position": "Cloud Architect",
+      "start_date": "2021-01-01",
+      "end_date": null,
+      "description": [
+        "Architecture ownership for cloud platforms and platform engineering teams",
+        "Technical pre-sales and architecture reviews"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Hochschule Karlsruhe",
+      "degree": "Bachelor of Engineering",
+      "field_of_study": "Computer Science",
+      "start_date": "2009-09-01",
+      "end_date": "2013-02-28",
+      "description": [
+        "Focus on distributed systems and network engineering",
+        "Bachelor thesis on automated provisioning of virtual infrastructure"
+      ]
+    }
+  ],
+  "skill_categories": [
+    {
+      "id": "cat-1",
+      "category_name": "Cloud & DevOps",
+      "skills": [
+        { "name": "Azure", "level": "expert" },
+        { "name": "Kubernetes", "level": "expert" },
+        { "name": "Terraform", "level": "advanced" },
+        { "name": "Docker", "level": "expert" },
+        { "name": "Helm", "level": "advanced" },
+        { "name": "GitHub Actions", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "category_name": "Programming Languages",
+      "skills": [
+        { "name": "Python", "level": "expert" },
+        { "name": "Bash", "level": "advanced" },
+        { "name": "Go", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "category_name": "Observability",
+      "skills": [
+        { "name": "Prometheus", "level": "advanced" },
+        { "name": "Grafana", "level": "advanced" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Azure Landing Zone",
+      "company": "Maschinenbau Rheinwerk GmbH",
+      "role": "Cloud Consultant",
+      "start_date": "2017-02-01",
+      "end_date": "2017-12-31",
+      "description": [
+        "Designed the subscription structure, network topology and identity setup for the group's first Azure landing zone",
+        "Automated the build pipelines for the platform components"
+      ],
+      "technologies": [
+        { "name": "Azure", "level": "advanced" },
+        { "name": "Azure DevOps", "level": "intermediate" },
+        { "name": "Bash", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Container Platform for Retail Applications",
+      "company": "Kaufhaus Nord AG",
+      "role": "Platform Engineer",
+      "start_date": "2018-03-01",
+      "end_date": "2019-08-31",
+      "description": [
+        "Built the managed container platform for 30 store and e-commerce applications",
+        "Introduced Helm-based deployments and monitoring for the application teams",
+        "Ran the platform in a shared on-call rotation during the first year"
+      ],
+      "technologies": [
+        { "name": "K8s", "level": "advanced" },
+        { "name": "Helm", "level": "intermediate" },
+        { "name": "Azure", "level": "advanced" },
+        { "name": "Docker", "level": "expert" },
+        { "name": "Prometheus", "level": "intermediate" },
+        { "name": "Azure DevOps", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Platform Automation Scripts",
+      "company": "Kaufhaus Nord AG",
+      "role": "Platform Engineer",
+      "start_date": "2019-09-01",
+      "end_date": "2019-12-31",
+      "description": [
+        "Replaced manual cluster housekeeping with scripted jobs for certificate rotation, namespace provisioning and cost tagging"
+      ],
+      "technologies": [
+        { "name": "Python", "level": "intermediate" },
+        { "name": "kubernetes", "level": "advanced" },
+        { "name": "Bash", "level": "advanced" },
+        { "name": "GitHub Actions", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Multi-Tenant Kubernetes Platform",
+      "company": "Maschinenbau Rheinwerk GmbH",
+      "role": "Cloud Architect",
+      "start_date": "2020-02-01",
+      "end_date": "2020-12-31",
+      "description": [
+        "Designed the multi-tenant platform for twelve product teams with tenant isolation, quotas and self-service onboarding",
+        "Built the observability stack and the golden-path templates for the teams"
+      ],
+      "technologies": [
+        { "name": "Kubernetes ", "level": "expert" },
+        { "name": "Helm", "level": "advanced" },
+        { "name": "Azure", "level": "expert" },
+        { "name": "Prometheus", "level": "advanced" },
+        { "name": "Grafana", "level": "advanced" },
+        { "name": "Azure DevOps", "level": "advanced" },
+        { "name": "Go", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-5",
+      "title": "Cluster Cost Reporting",
+      "company": "Helix Digital GmbH",
+      "role": "Cloud Architect",
+      "start_date": "2022-01-01",
+      "end_date": "2022-03-31",
+      "description": [
+        "Built the internal cost reporting for the cluster fleet, from the billing export to the dashboards per team"
+      ],
+      "technologies": [
+        { "name": "Python", "level": "intermediate" },
+        { "name": "Grafana", "level": "advanced" },
+        { "name": "Azure", "level": "expert" },
+        { "name": "GitHub Actions", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-6",
+      "title": "Migration of a Legacy Hosting Platform to Azure",
+      "company": "Logistik Süd GmbH",
+      "role": "Lead Architect",
+      "start_date": "2022-06-01",
+      "end_date": "2024-05-31",
+      "description": [
+        "Led the migration of 80 applications from a managed hosting provider to Azure, most of them onto the container platform",
+        "Defined the target architecture, the migration waves and the cut-over procedure with the application owners",
+        "Set up the platform team that runs the platform after the migration"
+      ],
+      "technologies": [
+        { "name": "Azure", "level": "expert" },
+        { "name": "K8s", "level": "expert" },
+        { "name": "Helm", "level": "advanced" },
+        { "name": "Docker", "level": "expert" },
+        { "name": "GitHub Actions", "level": "advanced" },
+        { "name": "Go", "level": "intermediate" },
+        { "name": "Grafana", "level": "advanced" }
+      ]
+    }
+  ]
+}

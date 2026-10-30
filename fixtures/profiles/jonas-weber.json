@@ -1,0 +1,190 @@
+{
+  "id": "jonas-weber",
+  "personal_info": {
+    "first_name": "Jonas",
+    "last_name": "Weber",
+    "title": "Data Engineer",
+    "summary": "Data engineer building batch and streaming pipelines on Spark and cloud data platforms. Covers the path from ingestion to the serving layer, with a preference for well-tested, reproducible pipelines."
+  },
+  "work_experience": [
+    {
+      "id": "we-1",
+      "company": "Datenwerk Leipzig GmbH",
+      "position": "Data Engineer",
+      "start_date": "2017-11-01",
+      "end_date": "2021-03-31",
+      "description": [
+        "Built batch pipelines on Spark and Hadoop for retail analytics",
+        "Migrated on-premises workloads to Databricks"
+      ]
+    },
+    {
+      "id": "we-2",
+      "company": "Helix Digital GmbH",
+      "position": "Senior Data Engineer",
+      "start_date": "2021-04-01",
+      "end_date": null,
+      "description": [
+        "Streaming and lakehouse architectures for logistics and energy clients",
+        "Mentors junior engineers and runs the internal data engineering guild"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Universität Leipzig",
+      "degree": "Bachelor of Science",
+      "field_of_study": "Computer Science",
+      "start_date": "2012-10-01",
+      "end_date": "2015-09-30",
+      "description": [
+        "Focus on databases and distributed systems"
+      ]
+    },
+    {
+      "id": "edu-2",
+      "institution": "Universität Leipzig",
+      "degree": "Master of Science",
+      "field_of_study": "Data Science",
+      "start_date": "2015-10-01",
+      "end_date": "2017-09-30",
+      "description": [
+        "Master thesis on incremental processing of large event streams with Spark"
+      ]
+    }
+  ],
+  "skill_categories": [
+    {
+      "id": "cat-1",
+      "category_name": "Programming Languages",
+      "skills": [
+        { "name": "Python", "level": "expert" },
+        { "name": "Scala", "level": "intermediate" },
+        { "name": "SQL", "level": "expert" }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "category_name": "Data Platforms",
+      "skills": [
+        { "name": "Apache Spark", "level": "expert" },
+        { "name": "Databricks", "level": "advanced" },
+        { "name": "Apache Kafka", "level": "advanced" },
+        { "name": "Delta Lake", "level": "advanced" },
+        { "name": "Apache Airflow", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "category_name": "Cloud & DevOps",
+      "skills": [
+        { "name": "Azure", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" },
+        { "name": "Terraform", "level": "intermediate" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Retail Sales Data Warehouse Offload",
+      "company": "Kaufhaus Nord AG",
+      "role": "Data Engineer",
+      "start_date": "2018-02-01",
+      "end_date": "2019-06-30",
+      "description": [
+        "Moved the nightly sales aggregations from the data warehouse to Spark jobs on the Hadoop cluster",
+        "Cut the nightly batch window from six to two hours"
+      ],
+      "technologies": [
+        { "name": "Apache Spark", "level": "advanced" },
+        { "name": "Python", "level": "advanced" },
+        { "name": "SQL", "level": "advanced" },
+        { "name": "Scala", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Migration to Databricks",
+      "company": "Kaufhaus Nord AG",
+      "role": "Data Engineer",
+      "start_date": "2019-07-01",
+      "end_date": "2020-12-31",
+      "description": [
+        "Migrated 40 Spark jobs from the on-premises cluster to Databricks on Azure",
+        "Introduced Delta Lake tables and automated tests for the transformations",
+        "Provisioned the workspaces and clusters with infrastructure as code"
+      ],
+      "technologies": [
+        { "name": "Databricks", "level": "advanced" },
+        { "name": "Apache Spark", "level": "expert" },
+        { "name": "Python", "level": "expert" },
+        { "name": "Delta Lake", "level": "intermediate" },
+        { "name": "Azure", "level": "intermediate" },
+        { "name": "Terraform", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Streaming Telemetry Platform",
+      "company": "Logistik Süd GmbH",
+      "role": "Senior Data Engineer",
+      "start_date": "2021-06-01",
+      "end_date": "2022-11-30",
+      "description": [
+        "Built the ingestion of vehicle telemetry from 3,000 trucks with Kafka and Spark Structured Streaming",
+        "Designed the bronze-silver-gold layers and the late-arrival handling",
+        "Containerised the stream processors and set up their deployment"
+      ],
+      "technologies": [
+        { "name": "Apache Kafka", "level": "advanced" },
+        { "name": "Apache Spark", "level": "expert" },
+        { "name": "Python", "level": "expert" },
+        { "name": "Delta Lake", "level": "advanced" },
+        { "name": "Azure", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Lakehouse for Grid Analytics",
+      "company": "Stadtwerke Elbtal",
+      "role": "Data Architect",
+      "start_date": "2022-03-01",
+      "end_date": "2023-08-31",
+      "description": [
+        "Designed the lakehouse for smart meter and grid sensor data on Databricks",
+        "Orchestrated the daily and hourly pipelines with Airflow",
+        "Established data quality checks and SLAs with the grid operations team"
+      ],
+      "technologies": [
+        { "name": "Apache Spark", "level": "expert" },
+        { "name": "Databricks", "level": "advanced" },
+        { "name": "Delta Lake", "level": "advanced" },
+        { "name": "Apache Airflow", "level": "advanced" },
+        { "name": "SQL", "level": "expert" },
+        { "name": "Azure", "level": "advanced" },
+        { "name": "Terraform", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-5",
+      "title": "Pipeline Observability and Testing Framework",
+      "company": "Helix Digital GmbH",
+      "role": "Senior Data Engineer",
+      "start_date": null,
+      "end_date": "2024-04-30",
+      "description": [
+        "Built the internal framework for pipeline tests, data contracts and run metrics used across client projects",
+        "Introduced it in three ongoing projects and trained the teams"
+      ],
+      "technologies": [
+        { "name": "Python", "level": "expert" },
+        { "name": "Apache Airflow", "level": "advanced" },
+        { "name": "Docker", "level": "advanced" },
+        { "name": "Apache Spark", "level": "expert" }
+      ]
+    }
+  ]
+}

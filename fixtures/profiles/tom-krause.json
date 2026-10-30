@@ -1,0 +1,122 @@
+{
+  "id": "tom-krause",
+  "personal_info": {
+    "first_name": "Tom",
+    "last_name": "Krause",
+    "title": "Junior Developer",
+    "summary": ""
+  },
+  "work_experience": [
+    {
+      "id": "we-1",
+      "company": "Softwarebüro Lang GmbH",
+      "position": "Trainee Developer",
+      "start_date": "2021-09-01",
+      "end_date": "2022-03-31",
+      "description": [
+        "Bug fixing and small features in a Java-based ERP add-on"
+      ]
+    },
+    {
+      "id": "we-2",
+      "company": "Webagentur Pixelpark Süd",
+      "position": "Junior Developer",
+      "start_date": "2022-11-01",
+      "end_date": "2024-02-29",
+      "description": [
+        "Frontend development for customer websites and web shops"
+      ]
+    },
+    {
+      "id": "we-3",
+      "company": "Helix Digital GmbH",
+      "position": "Junior Developer",
+      "start_date": "2024-09-01",
+      "end_date": null,
+      "description": [
+        "Backend development in client project teams"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Berufliche Schule 6 Nürnberg",
+      "degree": "Fachinformatiker Anwendungsentwicklung (IHK)",
+      "field_of_study": "Application Development",
+      "start_date": "2018-09-01",
+      "end_date": "2021-06-30",
+      "description": []
+    }
+  ],
+  "skill_categories": [
+    {
+      "id": "cat-1",
+      "category_name": "Programming Languages",
+      "skills": [
+        { "name": "Java", "level": null },
+        { "name": "JavaScript", "level": null },
+        { "name": "TypeScript", "level": null },
+        { "name": "Python", "level": null }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "category_name": "Frameworks & Libraries",
+      "skills": [
+        { "name": "React", "level": null },
+        { "name": "Spring Boot", "level": null }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "category_name": "Tools",
+      "skills": [
+        { "name": "Git", "level": null },
+        { "name": "Docker", "level": null }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "ERP Add-on Maintenance",
+      "company": "Softwarebüro Lang GmbH",
+      "role": "Trainee Developer",
+      "start_date": "2021-10-01",
+      "end_date": "2022-03-31",
+      "description": [],
+      "technologies": [
+        { "name": "Java", "level": "beginner" },
+        { "name": "Git", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Web Shop Relaunch",
+      "company": "Webagentur Pixelpark Süd",
+      "role": "Frontend Developer",
+      "start_date": "2023-01-01",
+      "end_date": "2023-10-31",
+      "description": [],
+      "technologies": [
+        { "name": "JavaScript", "level": "intermediate" },
+        { "name": "React", "level": "intermediate" },
+        { "name": "TypeScript", "level": "beginner" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Internal Time Tracking Tool",
+      "company": "Helix Digital GmbH",
+      "role": "Developer",
+      "start_date": "2024-10-01",
+      "end_date": "2025-03-31",
+      "description": [],
+      "technologies": [
+        { "name": "Python", "level": "intermediate" },
+        { "name": "Docker", "level": "beginner" }
+      ]
+    }
+  ]
+}

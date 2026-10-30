@@ -1,0 +1,95 @@
+{
+  "id": "mara-eckstein",
+  "personal_info": {
+    "first_name": "Mara",
+    "last_name": "Eckstein",
+    "title": "IT Consultant",
+    "summary": "IT consultant with experience in ERP rollouts and process digitalisation for mid-sized companies."
+  },
+  "work_experience": [
+    {
+      "id": "we-1",
+      "company": "Mertens & Partner Unternehmensberatung",
+      "position": "Junior Consultant",
+      "start_date": "2018-04-01",
+      "end_date": "2021-06-30",
+      "description": [
+        "Requirements workshops and test management in ERP rollouts",
+        "Process documentation and end-user training"
+      ]
+    },
+    {
+      "id": "we-2",
+      "company": "Helix Digital GmbH",
+      "position": "IT Consultant",
+      "start_date": "2021-07-01",
+      "end_date": null,
+      "description": [
+        "Business analysis and project coordination in digitalisation projects"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Hochschule Reutlingen",
+      "degree": "Bachelor of Science",
+      "field_of_study": "Business Informatics",
+      "start_date": "2014-09-01",
+      "end_date": "2018-02-28",
+      "description": [
+        "Focus on business process management and ERP systems",
+        "Bachelor thesis on the introduction of an ERP system in a mid-sized manufacturing company"
+      ]
+    }
+  ],
+  "skill_categories": [],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "ERP Rollout Sales and Logistics",
+      "company": "Metallbau Hagen GmbH",
+      "role": "Business Analyst",
+      "start_date": "2018-09-01",
+      "end_date": "2020-03-31",
+      "description": [
+        "Gathered requirements with the sales and logistics departments and translated them into specifications",
+        "Planned and executed the acceptance tests with the key users",
+        "Prepared the training material and trained 40 users"
+      ],
+      "technologies": [
+        { "name": "SAP SD", "level": "intermediate" },
+        { "name": "SAP MM", "level": "intermediate" },
+        { "name": "Jira", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Digital Order Process",
+      "company": "Druckerei Brandt KG",
+      "role": "Project Coordinator",
+      "start_date": "2020-06-01",
+      "end_date": "2021-05-31",
+      "description": [
+        "Supported the team in various tasks related to the new order process."
+      ],
+      "technologies": [
+        { "name": "Microsoft Power Automate", "level": "intermediate" },
+        { "name": "SharePoint", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Process Analysis Procurement",
+      "company": "Klinikverbund Ostalb",
+      "role": "Business Analyst",
+      "start_date": "2021-09-01",
+      "end_date": "2022-04-30",
+      "description": [
+        "Mapped the procure-to-pay process across four hospitals in BPMN",
+        "Identified and quantified eleven improvement measures, three of which were implemented in a follow-up project"
+      ],
+      "technologies": []
+    }
+  ]
+}

@@ -138,3 +138,7 @@ new one is a field in `backend/app/core/settings.py`. The frontend reads only
 Using an AI API is allowed. Bring your own key through an environment variable in `.env`,
 or work with mocked responses. `docker compose up` and all checks above must keep running
 without a key and without network access.
+
+## License
+
+MIT, see `LICENSE`. The fonts under `frontend/public/fonts/` are published under the SIL Open Font License 1.1.

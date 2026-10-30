@@ -5,6 +5,8 @@ profile with its career stations, education, skills and reference projects, serv
 FastAPI backend and shown by a Next.js page. Five example profiles ship as fixtures in
 `fixtures/profiles/`.
 
+The task of the assessment is in [ASSESSMENT.md](ASSESSMENT.md) (German).
+
 ## Start
 
 ```bash

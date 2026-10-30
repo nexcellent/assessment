@@ -1,0 +1,99 @@
+[project]
+name = "profile-backend"
+version = "1.0.0"
+description = "FastAPI service serving consultant profiles"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.162.0",
+    "pydantic>=2.14.2",
+    "pydantic-settings>=2.16.2",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.16.0",
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.17.3",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+    "--cov=app",
+    "--cov-report=term-missing",
+    "--cov-fail-under=85",
+]
+testpaths = ["tests"]
+# The project is not installed into the environment; the root on the path is what makes
+# ``app`` importable from the tests.
+pythonpath = ["."]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+markers = [
+    "unit: Unit tests",
+]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.coverage.run]
+source = ["app"]
+omit = [
+    "*/tests/*",
+    "*/.venv/*",
+    # Application entry point and routing - exercised through the API tests, not measured
+    "app/main.py",
+    "app/api/routes.py",
+    "app/api/endpoints/*.py",
+    # Infrastructure/setup - tested indirectly through services
+    "app/core/*.py",
+    # Models do not need unit testing either
+    "app/models/*.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "class.*\\(Protocol\\):",
+    "@abstractmethod",
+    "^\\s*\\.\\.\\.$",
+]
+fail_under = 85
+precision = 2
+show_missing = true
+skip_empty = true
+
+[tool.ruff]
+target-version = "py313"
+line-length = 120
+
+[tool.ruff.lint]
+# Use a pragmatic rule set; avoid overly strict complexity/annotation/doc rules
+select = ["E", "F", "W", "I", "N", "Q"]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+combine-as-imports = false
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+files = ["app"]
+no_implicit_optional = true
+plugins = ['pydantic.mypy']
+python_version = "3.13"
+strict_equality = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unreachable = true
